@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6A5ACD; /* Purple background */
+}
+
+.calendar {
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 240px;
+    text-align: center;
+}
+
+.calendar-header {
+    background-color: #FF4500; /* Orange background for header */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+
+.calendar-body {
+    padding: 20px;
+}
+
+.calendar-item {
+    font-size: 1.2rem;
+    color: #808080;
+    margin: 8px 0;
+}
+
+#day {
+    font-size: 5rem; /* Larger font for day */
+    font-weight: bold;
+    color: #000; /* Black for emphasis */
+}
+
+#year {
+    font-size: 1.5rem;
+    color: #808080; /* Light gray for year */
+    margin-top: 10px;
+}
