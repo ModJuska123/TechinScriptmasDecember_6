@@ -39,6 +39,3 @@ The font is clean and simple, ensuring readability.
 HTML lays out the basic structure of the calendar.
 JavaScript retrieves the current date using new Date() and formats it using toLocaleDateString().
 CSS adds visual enhancements such as padding, shadows, and colors.
-
-🏁 Conclusion
-This mini calendar project is a fun and practical way to learn about date handling in JavaScript and basic web design with HTML and CSS. It's a great exercise to strengthen your skills and create a dynamic, real-time web page that displays the current date. 🎊
